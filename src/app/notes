@@ -1,0 +1,12 @@
+frrontend- E commerce
+
+1 create angular project - ng new create
+2 run angualr -ng s -o
+3 Add bootsrtap
+4 lazy loading = its a process of loading componenets and modules
+      it  improve application load time speed
+       ng g m products --route products --module app.module
+5 create a component should lazy loaded in the produts module
+   ->all-products  ng g c products/all-products
+   =>cart      ng g c products/cart
+   ->wislist    ng g c products/wishlist
